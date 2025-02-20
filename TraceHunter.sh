@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Codinome
+echo -e "\033[1;94m TraceHunter-Forensic Collector \033[0m"
+
 #Verificação de permissões
 if [[ $EUID -ne 0 ]]; then
 	echo -e "\033[1;31m Este script precisa ser executado como root. \033[0m"
